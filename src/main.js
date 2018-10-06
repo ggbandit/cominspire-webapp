@@ -6,6 +6,9 @@ import router from './router'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import jQuery from 'jquery'
+global.jQuery = jQuery
+let Bootstrap = require('bootstrap')
 Vue.use(BootstrapVue);
 
 Vue.config.productionTip = false
