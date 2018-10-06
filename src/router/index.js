@@ -5,6 +5,9 @@ import Login from '@/components/Login'
 import SignUp from '@/components/SignUp'
 import Home from '@/components/Home'
 import Notebook from '@/components/Notebook'
+import Mouse from '@/components/Mouse'
+import Keyboard from '@/components/Keyboard'
+import AboutUs from '@/components/AboutUs'
 
 Vue.use(Router)
 
@@ -34,6 +37,21 @@ export default new Router({
       path: '/notebook',
       name: 'Notebook',
       component: Notebook
+    },
+    {
+      path: '/mouse',
+      name: 'Mouse',
+      component: Mouse
+    },
+    {
+      path: '/keyboard',
+      name: 'Keyboard',
+      component: Keyboard
+    },
+    {
+      path: '/about',
+      name: 'AboutUs',
+      component: AboutUs
     }
   ]
 })
