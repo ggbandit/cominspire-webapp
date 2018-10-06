@@ -4,10 +4,10 @@
       <img src="../assets/logo.png">
       <div class="sign-up">Sign up</div>
       <div style="margin-top: 10px;">Create your free account</div>
-      <input class="mg1" type="text" name="name" id="name" placeholder="Your name">
-      <input class="mg2" type="email" name="email" id="email" placeholder="Email">
-      <input class="mg2" type="password" name="password" id="password" placeholder="Password">
-      <button type="submit" style="margin-top: 15.84px;">Sign up</button>
+      <input class="mg1" type="text" placeholder="Your name">
+      <input class="mg2" type="text" v-model="email" placeholder="Email">
+      <input class="mg2" type="password" v-model="password" placeholder="Password">
+      <button style="margin-top: 15.84px;" v-on:click="signUp">Sign up</button>
       <div style="margin-top: 35px;">By signing up you agree to our</div>
       <div style="margin-top: 10px;">Terms & Conditions</div>
     </div>
@@ -15,13 +15,27 @@
 </template>
 
 <script>
+import firebase from 'firebase'
 export default {
-  name: 'SignUp',
-  data () {
-    return {
-      msg: ''
+    name: 'signUp',
+    data: function() {
+        return{
+            email: '',
+            password: ''
+        }
+    },
+    methods: {
+        signUp: function() {
+            firebase.auth().createUserWithEmailAndPassword(this.email, this.password).then(
+                (user) => {
+                    this.$router.replace('Home')
+                },
+                (err) => {
+                    alert('Oops.' + err.message)
+                }
+            );
+        }
     }
-  }
 }
 </script>
 

@@ -33,11 +33,14 @@
 <script>
 export default {
   name: 'Navbar',
-  data () {
-    return {
-      msg: ''
+    methods: {
+        About: function () {
+            this.$router.replace('about')
+        },
+        Home: function() {
+            this.$router.replace('Home')
+        }
     }
-  }
 }
 </script>
 

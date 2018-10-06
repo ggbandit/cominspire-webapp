@@ -5,23 +5,40 @@
             <img src="../assets/logo1.png">
             <div class="card">
                 <div class="sign-in">Sign in</div>
-                <input class="mt-3" style="margin-left: 65px;" type="email" name="email" id="email" placeholder="Email">
-                <input class="mt-2" style="margin-left: 65px;" type="password" name="password" id="password" placeholder="Password">
-                <button class="mt-3" style="margin-left: 65px;" type="submit">Sign in</button>
-                <button class="mt-2" style="margin-left: 65px;" type="submit">Sign up</button>
+                <input class="mt-3" type="text" style="margin-left: 65px;" v-model="email" placeholder="Email">
+                <input class="mt-2" type="password" style="margin-left: 65px;" v-model="password" placeholder="Password">
+                <button class="mt-3" style="margin-left: 65px;" v-on:click="signIn">Sign in</button>
+                <button class="mt-3" style="margin-left: 65px;" v-on:click="signUp">Sign Up</button>
             </div>
       </div>  
   </b-container>
 </template>
 
 <script>
+import firebase from 'firebase'
 export default {
-  name: 'Login',
-  data () {
-    return {
-      msg: 'Login page'
+    name: 'login',
+    data: function() {
+        return {
+            email: '',
+            password: ''
+        }
+    },
+    methods: {
+        signIn: function() {
+            firebase.auth().signInWithEmailAndPassword(this.email, this.password).then(
+                (user) => {
+                    this.$router.replace('Home')
+                },
+                (err) => {
+                    alert('Oops.' + err.message)
+                }
+            );
+        },
+        signUp: function() {
+            this.$router.replace('SignUp')
+        }
     }
-  }
 }
 </script>
 
@@ -109,5 +126,18 @@ button {
     font-weight: 400;
     text-align: center;
     border: 1px solid #51E155;
+}
+.btn{
+    background-color: #51E155;
+    border-radius: 5px;
+    width: 285.98px;
+    height: 49.69px;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #51E155;
+    text-decoration: none;
+    margin-top: 15px;
 }
 </style>

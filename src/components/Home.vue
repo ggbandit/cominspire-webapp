@@ -51,11 +51,13 @@
 import Navbar from './Navbar.vue'
 export default {
   name: 'Home',
-  data () {
-    return {
-      msg: ''
-    }
-  },
+    methods: {
+        logout: function () {
+            firebase.auth().signOut().then(() => {
+                this.$router.replace('login')
+            })
+        }
+    },
   components: {
     Navbar
   }
