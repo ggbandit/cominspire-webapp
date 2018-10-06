@@ -2,7 +2,7 @@
 <div class="bg">
     <Navbar />
     <div class="topic mx-auto">
-      <p class="text m-auto">Top 5 Notebooks 2018</p>
+      <p class="text m-auto">Top 5 Mouse 2018</p>
     </div>
     <div class="card mx-auto mt-4 px-5 py-4">
       <div class="row height-50">

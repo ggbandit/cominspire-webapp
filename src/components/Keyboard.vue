@@ -2,32 +2,32 @@
 <div class="bg">
     <Navbar />
     <div class="topic mx-auto">
-      <p class="text m-auto">Top 5 Notebooks 2018</p>
+      <p class="text m-auto">Top 5 Keyboard 2018</p>
     </div>
     <div class="card mx-auto mt-4 px-5 py-4">
       <div class="row height-50">
-        <div class="col-4" ><img style="width: 100%;height: 100%;" src="../assets/msi.jpg"></div>
-        <div class="col-4 text-name">MSI GF63 8RC</div>
-        <div class="col-4" ><img class="com-logo" src="../assets/intel.png"><img class="com-logo" src="../assets/nvidia.png"></div>
+        <div class="col-4" ><img style="width: 100%;height: 100%;" src="../assets/CORSAIR K95 RGB PLATINUM MX-Brown.png"></div>
+        <div class="col-4 text-name">CORSAIR K95 RGB PLATINUM MX-Brown</div>
+        <div class="col-4" ><img class="com-logo" src="../assets/corsiar logo.png"></div>
       </div>
       <div class="row height-50">
         <div class="col-6 detail" >
-          <p>- Intel Core i7-8750H (2.20 - 4.10 GHz) </p>
-          <p>- NVIDIA GeForce GTX 1050 (4GB GDDR5)</p>
-          <p>- 8 GB DDR4</p>
-          <p>- 1 TB 5400 RPM + 128 GB SSD</p>
-          <p>- 15.6 inch (1920x1080) Full HD IPS</p>
-          <p>- Windows 10 Home (64 Bit)</p>
+          <p>- Interface : USB</p>
+          <p>- Key Language : ENG - TH</p>
+          <p>- Key Switch Type : Cherry MX RGB Brown</p>
+          <p>- Anti-ghosting : 100% Anti-Ghosting</p>
+          <p>- Macro Keys : Full Key</p>
+
         </div>
         <div class="col-6 border" >
           <div class="row no-gutters">
             <div class="col">
               <div class="row no-gutters"><img class="sell-logo" src="../assets/jib.jpg"></div>
-              <div class="row no-gutters"><img class="sell-logo mt-3" src="../assets/advice.png"></div>
+              <div class="row no-gutters"></div>
             </div>
             <div class="col">
-              <div class="row no-gutters"><p class="text-color mt-3">ราคา 29,900 บาท</p></div>
-              <div class="row no-gutters"><p class="text-color mt-5">ราคา 29,900 บาท</p></div>
+              <div class="row no-gutters"><p class="text-color mt-3">ราคา 7,790 บาท</p></div>
+              <div class="row no-gutters"><p class="text-color mt-5"></p></div>
             </div>
           </div>
         </div>
@@ -35,29 +35,27 @@
     </div>
     <div class="card mx-auto mt-4 px-5 py-4">
       <div class="row height-50">
-        <div class="col-4" ><img style="width: 100%;height: 100%;" src="../assets/acer.jpg"></div>
-        <div class="col-4 text-name">Acer Nitro 5 AN515-52</div>
-        <div class="col-4" ><img class="com-logo" src="../assets/intel.png"><img class="com-logo" src="../assets/nvidia.png"></div>
+        <div class="col-4" ><img style="width: 100%;height: 100%;" src="../assets/RAZER Huntsman Elite.png"></div>
+        <div class="col-4 text-name">RAZER Huntsman Elite</div>
+        <div class="col-4" ><img class="com-logo" src="../assets/razer.png"></div>
       </div>
       <div class="row height-50">
         <div class="col-6 detail" >
-          <p>- Intel Core i5-8300H (2.30 - 4.00 GHz) </p>
-          <p>- NVIDIA GeForce GTX 1050Ti (4GB GDDR5)</p>
-          <p>- 8 GB DDR4</p>
-          <p>- 1 TB 5400 RPM</p>
-          <p>- 15.6 inch (1920x1080) Full HD IPS</p>
-          <p>- Windows 10 Home (64 Bit)</p>
-
+          <p>- Interface : USB</p>
+          <p>- Key Language : ENG</p>
+          <p>- Key Switch Type : Razer Opto-Mechanical Light and Clicky</p>
+          <p>- Anti-ghosting : 10 key roll-over with anti-ghosting</p>
+          <p>- Macro Keys : Full</p>
         </div>
         <div class="col-6 border" >
           <div class="row no-gutters">
             <div class="col">
               <div class="row no-gutters"><img class="sell-logo" src="../assets/jib.jpg"></div>
-              <div class="row no-gutters"><img class="sell-logo mt-3" src="../assets/advice.png"></div>
+              <div class="row no-gutters"><img class="sell-logo" src="../assets/advice.png"></div>
             </div>
             <div class="col">
-              <div class="row no-gutters"><p class="text-color mt-3">ราคา 25,900 บาท</p></div>
-              <div class="row no-gutters"><p class="text-color mt-5">ราคา 25,900 บาท</p></div>
+              <div class="row no-gutters"><p class="text-color mt-3">ราคา 8,290 บาท</p></div>
+              <div class="row no-gutters"><p class="text-color mt-5">ราคา 8,290 บาท</p></div>
             </div>
           </div>
         </div>
@@ -65,29 +63,29 @@
     </div>
     <div class="card mx-auto mt-4 px-5 py-4">
       <div class="row height-50">
-        <div class="col-4" ><img style="width: 100%;height: 100%;" src="../assets/asus.jpg"></div>
-        <div class="col-4 text-name">Asus TUF Gaming FX504GM</div>
-        <div class="col-4" ><img class="com-logo" src="../assets/intel.png"><img class="com-logo" src="../assets/nvidia.png"></div>
+        <div class="col-4" ><img style="width: 100%;height: 100%;" src="../assets/CORSAIR K70 RGB MK.2 SE MX-Speed.png"></div>
+        <div class="col-4 text-name">CORSAIR K70 RGB MK.2 SE MX-Speed</div>
+        <div class="col-4" ><img class="com-logo" src="../assets/corsiar logo.png"></div>
       </div>
       <div class="row height-50">
         <div class="col-6 detail" >
-          <p>- Intel Core i7-8750H (2.20 - 4.10 GHz) </p>
-          <p>- NVIDIA GeForce GTX 1060 (6GB GDDR5)</p>
-          <p>- 8 GB DDR4</p>
-          <p>- 1 TB 5400 RPM + 128 GB SSD PCIe M.2</p>
-          <p>- 15.6 inch (1920x1080) Full HD 120Hz</p>
-          <p>- Windows 10 Home (64 Bit)</p>
+          <p>- Interface : USB</p>
+          <p>- Key Language : ENG</p>
+          <p>- Key Switch Type : Cherry MX Speed RGB</p>
+          <p>- Anti-ghosting : 100% Anti-Ghosting / N-Key Rollover</p>
+          <p>- Macro Keys : Full</p>
+
 
         </div>
         <div class="col-6 border" >
           <div class="row no-gutters">
             <div class="col">
               <div class="row no-gutters"><img class="sell-logo" src="../assets/jib.jpg"></div>
-              <div class="row no-gutters"><img class="sell-logo mt-3" src="../assets/advice.png"></div>
+              <div class="row no-gutters"></div>
             </div>
             <div class="col">
-              <div class="row no-gutters"><p class="text-color mt-3">ราคา 39,500 บาท</p></div>
-              <div class="row no-gutters"><p class="text-color mt-5">ราคา 39,500 บาท</p></div>
+              <div class="row no-gutters"><p class="text-color mt-3">ราคา 6,490 บาท</p></div>
+              <div class="row no-gutters"><p class="text-color mt-5"></p></div>
             </div>
           </div>
         </div>
@@ -95,29 +93,28 @@
     </div>
     <div class="card mx-auto mt-4 px-5 py-4">
       <div class="row height-50">
-        <div class="col-4" ><img style="width: 100%;height: 100%;" src="../assets/dell.jpg"></div>
-        <div class="col-4 text-name">DELL G3 15 3579 Gaming</div>
-        <div class="col-4" ><img class="com-logo" src="../assets/intel.png"><img class="com-logo" src="../assets/nvidia.png"></div>
+        <div class="col-4" ><img style="width: 100%;height: 100%;" src="../assets/kingston-hyper-x_alloy_elite_rgb_mx-brown.png"></div>
+        <div class="col-4 text-name">KINGSTON Hyper-X Alloy Elite RGB MX-Brown</div>
+        <div class="col-4" ><img class="com-logo" src="../assets/kingston.png"></div>
       </div>
       <div class="row height-50">
         <div class="col-6 detail" >
-          <p>- Intel Core i5-8300H (2.30 - 4.00 GHz) </p>
-          <p>- NVIDIA GeForce GTX 1050 (4GB GDDR5)</p>
-          <p>- 4 GB DDR4</p>
-          <p>- 1 TB 5400 RPM</p>
-          <p>- 15.6 inch (1920x1080) Full HD IPS</p>
-          <p>- Ubuntu</p>
+          <p>- Interface : USB</p>
+          <p>- Key Language : ENG</p>
+          <p>- Key Switch Type : Cherry MX RGB Brown</p>
+          <p>- Anti-ghosting : 100% Anti-Ghosting / N-Key Rollover</p>
+          <p>- Macro Keys : Full Key</p>
 
         </div>
         <div class="col-6 border" >
           <div class="row no-gutters">
             <div class="col">
               <div class="row no-gutters"><img class="sell-logo" src="../assets/jib.jpg"></div>
-              <div class="row no-gutters"><img class="sell-logo mt-3" src="../assets/advice.png"></div>
+              <div class="row no-gutters"></div>
             </div>
             <div class="col">
-              <div class="row no-gutters"><p class="text-color mt-3">ราคา 23,490 บาท</p></div>
-              <div class="row no-gutters"><p class="text-color mt-5">ราคา 23,490 บาท</p></div>
+              <div class="row no-gutters"><p class="text-color mt-3">ราคา 5,990 บาท</p></div>
+              <div class="row no-gutters"><p class="text-color mt-5"></p></div>
             </div>
           </div>
         </div>
@@ -125,29 +122,28 @@
     </div>
     <div class="card mx-auto mt-4 px-5 py-4">
       <div class="row height-50">
-        <div class="col-4" ><img style="width: 100%;height: 100%;" src="../assets/lenovo.jpg"></div>
-        <div class="col-4 text-name">Lenovo Legion Y520</div>
-        <div class="col-4" ><img class="com-logo" src="../assets/intel.png"><img class="com-logo" src="../assets/nvidia.png"></div>
+        <div class="col-4" ><img style="width: 100%;height: 100%;" src="../assets/varmilo-sakura_mx-speed.png"></div>
+        <div class="col-4 text-name">VARMILO SAKURA MX-Speed</div>
+        <div class="col-4" ><img class="com-logo" src="../assets/Y6L_[61H}V12W8YUI0JAOQG.png"></div>
       </div>
       <div class="row height-50">
         <div class="col-6 detail" >
-          <p>- Intel Core i7-7700HQ (2.80 - 3.80 GHz) </p>
-          <p>- NVIDIA GeForce GTX 1050 (4GB GDDR5)</p>
-          <p>- 4 GB DDR4</p>
-          <p>- 1 TB 5400 RPM</p>
-          <p>- 15.6 inch (1920x1080) Full HD IPS</p>
-          <p>- DOS Operating System</p>
+          <p>- Interface : USB</p>
+          <p>- Key Language : ENG</p>
+          <p>- Key Switch Type : Cherry MX Speed</p>
+          <p>- Anti-ghosting : N-key Rollover</p>
+          <p>- Macro Keys : -</p>
 
         </div>
         <div class="col-6 border" >
           <div class="row no-gutters">
             <div class="col">
               <div class="row no-gutters"><img class="sell-logo" src="../assets/jib.jpg"></div>
-              <div class="row no-gutters"><img class="sell-logo mt-3" src="../assets/advice.png"></div>
+              <div class="row no-gutters"></div>
             </div>
             <div class="col">
-              <div class="row no-gutters"><p class="text-color mt-3">ราคา 25,900 บาท</p></div>
-              <div class="row no-gutters"><p class="text-color mt-5">ราคา 26,900 บาท</p></div>
+              <div class="row no-gutters"><p class="text-color mt-3">ราคา 5,790 บาท</p></div>
+              <div class="row no-gutters"><p class="text-color mt-5"></p></div>
             </div>
           </div>
         </div>
